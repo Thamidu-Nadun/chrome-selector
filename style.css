@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 110vw;
+  height: 100vh;
+  background: #000;
+  color: white;
+  font-family: monospace;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 5em auto;
+  text-align: center;
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    margin: 5em;
+    padding: 1em 2em;
+  }
+}
+::selection {
+  background: #2193b0;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
